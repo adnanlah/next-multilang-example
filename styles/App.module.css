@@ -1,0 +1,23 @@
+.container {
+  min-width: 720px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 750px) { 
+  .container {
+    min-width: 80%;
+  }
+}
